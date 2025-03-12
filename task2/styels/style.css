@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+}
+body{
+    color: black;
+    font-family: "Inter", sans-serif; 
+}
+.contienar{
+    width:500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* start header */
+
+header{
+   background-color: #3498db;
+   height: 10vh;
+   display: flex;
+}
+header h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+/* end header */
+/* start main */
+
+main{
+    height: 65vh;
+    display: flex;
+}
+main .main-content{
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border:#3498db 3px solid ;
+    outline:#f39c12 3px dotted ;
+    border-radius: 10px;
+
+}
+main .main-content .my-img{
+    display: flex;
+    justify-content: center;
+}
+main .main-content .my-img img{
+    height: 150px;
+}
+main .main-content .content h1{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform:capitalize ;
+    margin-bottom: 4px;
+}
+main .main-content .contact button{
+    padding:10px 20px;
+    border-radius: 8px;
+}
+main .main-content .contact .btn-follow{
+    background-color: #3498db;
+    margin-right: 15px;
+}
+main .main-content .contact .btn-message{
+    background-color: #2ecc71;
+}
+main .main-content .contact a{
+    color: white;
+    text-transform:capitalize ;
+}
+
+/* end main */
+/* start footer */
+
+footer{
+    background-color: #222;
+    height: 8vh;
+    display: flex;
+ }
+ footer p{
+     font-size: 20px;
+     color: white;
+     width: fit-content;
+ }
+ 
+ /* end footer */
