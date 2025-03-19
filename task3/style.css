@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ------------------------------- assignment 1 ----------------------------------- */
+
+    /* 
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+    }
+    p{
+        text-transform: capitalize;
+        font-size: 100px;
+        font-weight: bold;
+        text-shadow: 3px 3px 1px rgb(255, 0, 0) ,
+        5px 5px 1px rgb(0, 146, 250) ,
+        7px 7px 1px rgb(38, 255, 0) , 
+        9px 9px 1px rgb(106, 0, 255);   
+    } */
+
+/* ------------------------------- assignment 2 ----------------------------------- */
+
+    /* p{
+        width: fit-content;
+        font-size: 40px;
+        margin: 2rem auto 0;
+    }
+    .one{
+    text-transform: uppercase; 
+    margin-top: 10rem;
+    }
+    .two{
+    text-transform: capitalize; 
+    } */
+
+/* ------------------------------- assignment 3 ----------------------------------- */
+    /* div{
+        width:400px;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 1.2;
+        margin: 5rem auto;
+    }
+   .second{
+        white-space:nowrap;
+        overflow: hidden;   
+    }
+   .last{
+        white-space:nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+       
+    } */
+
+
+/* ------------------------------- assignment 4 ----------------------------------- */
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+    }
+    a{
+        background-color: #16a085;
+        padding: 2rem 6rem;
+        color: white;
+        text-decoration: none;
+        font-size: 80px;
+        font-weight: 900;
+        text-transform: capitalize;
+        border-bottom: 1.5rem solid rgba(6, 58, 53, 0.726);
+    }
