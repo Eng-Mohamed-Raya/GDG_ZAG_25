@@ -1,0 +1,150 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: rgb(243, 246, 246);
+}
+h2{
+    width:fit-content;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 2rem auto;
+    border-bottom: 3px solid rgb(255, 0, 0);
+    text-transform: capitalize;
+}
+
+
+
+#assignment1
+,#assignment2
+,#assignment3
+,#assignment4{
+    padding: 2rem 0;
+}
+
+/* ------------------------------- assignment 1 ----------------------------------- */
+
+#assignment1 div{
+    width: 300px;
+    height: 60px;
+    background-color: rgb(206, 202, 202);
+    font-size: 25px;
+    font-weight: 500;
+    margin:1.5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#assignment1 div:nth-child(3){
+    background-color: rgb(238, 14, 14);
+}
+
+
+/* ------------------------------- assignment 2 ----------------------------------- */
+#assignment2 div{
+    width: 80%;
+    height: 80px;
+    background-color: rgb(206, 202, 202);
+    font-size: 25px;
+    font-weight: 500;
+    margin:1.5rem auto;
+    padding-top: 25px;
+    padding-left: 1rem;
+    counter-increment:count-leter;
+    position: relative;
+}
+#assignment2 div::before{
+    content: counter(count-leter);
+    color: white;
+    background-color: rgb(238, 14, 14);
+    padding: 1rem;
+    position: absolute;
+    left: -15px;
+    top: 10px; 
+    font-weight: 700;
+}
+
+
+
+/* ------------------------------- assignment 3 ----------------------------------- */
+
+#assignment3 p{
+    width: 600px;
+    height: 80px;
+    background-color: rgb(206, 202, 202);
+    font-size: 25px;
+    font-weight: 500;
+    margin:1.5rem 0 1.5rem 30%;
+    /* margin-left: 3rem; */
+    padding-top: 25px;
+    padding-left: 1rem;
+    border-left: 6px solid #f92672;
+    position: relative;
+}
+#assignment3 p::before{
+    content:"";
+    position: absolute;
+    left: -45px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: transparent #f92672 transparent transparent;
+}
+#assignment3 p::after{
+    content:attr(data-person);
+    position: absolute;
+    left: -150px;
+    top: 10px;
+    background-color: rgb(206, 202, 202);
+    width:80px;
+    padding:15px 20px ;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+@media screen and (max-width: 1000px){
+    #assignment3 p{
+        width: 60%;
+        height: 80px;
+        background-color: rgb(206, 202, 202);
+        font-size: 25px;
+        font-weight: 500;
+        margin:1.5rem 0 1.5rem 30%;
+        /* margin-left: 3rem; */
+        padding-top: 25px;
+        padding-left: 1rem;
+        border-left: 6px solid #f92672;
+        position: relative;
+    }
+    
+}
+
+
+/* ------------------------------- assignment 4 ----------------------------------- */
+
+#assignment4 p{
+    width: 80%;
+    height: 80px;
+    background-color: rgb(206, 202, 202);
+    font-size: 25px;
+    font-weight: 500;
+    margin:1.5rem auto;
+    padding-top: 25px;
+    border-right: 6px solid rgb(244, 73, 73);
+    counter-increment:count-number;
+}
+#assignment4 p::before{
+    content: counter(count-number);
+    color: white;
+    background-color: rgb(244, 73, 73);
+    padding: 1.5rem 1.5rem 1.7rem;
+    margin-right: 1rem;
+}
