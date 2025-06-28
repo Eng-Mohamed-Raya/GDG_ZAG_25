@@ -1,99 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Task 4</title>
-    <link rel="stylesheet" href="./style/style.css" />
-  </head>
-  <body>
-    <div class="continear">
-        
-      <!-- ------------------------------- task 1 -----------------------------------  -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mohamed Yasser Raya">
 
-        <div class="title">
-            <h2>task1</h2>
-        </div>
-        <div class="parent1">
-            <div class="content">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae
-            scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices
-            nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut
-            aliquet.
+    <link rel="shortcut icon" href="./images/mug-saucer-solid.svg" type="image/x-icon">
+    <title>The Cafe</title>
+</head>
+<body>
+     <!-- start header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#menu">menu</a></li>
+                <li><a href="#where">where</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end header -->
+    <!-- start main -->
+    <main>
+        <!-- start home -->
+        <section id="home" style="background-image: url(./images/coffeehouse.jpg); height: 80vh; background-position: center; 
+        background-repeat: no-repeat; background-size: cover;">
+            <div class="title">
+                <h2>the</h2>
+                <h2>cafe</h2>
             </div>
-            <div class="img">
-            <img
-                src="./images/photo_2025-04-03_23-49-34 1.svg"
-                alt="Image"
-                class="image"
-            />
+           
+            <div class="information">
+                <p class="time">
+                    open from 6am to 5pm
+                </p>
+                <p class="address">
+                    15 Adr street, 5015
+                </p>
             </div>
+        </section>
+        <!-- end home -->
+        <div class="contianer">
+            <!-- start about -->
+            <section id="about">
+                <div class="title">
+                    <h2>about the cafe</h2>
+                </div>
+                <div class="content">
+                    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\
+                    </p>
+                    <p>
+                        In addition to our full espresso and brew bar menu,
+                        we serve fresh made-to-order breakfast and lunch sandwiches
+                        , as well as a selection of sides and salads and other good stuff.  
+                    </p>
+                    <div class="about-product">
+                        <p>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</p>
+                        <p>Chef, Coffeeist and Owner: Liam Brown</p>
+                    </div>
+                    <div class="img-coffe-shop">
+                        <img src="./images/coffeeshop.jpg" alt="coffe shop">
+                    </div>
+                    <div class="detaile">
+                        <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+                        <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+                    </div>
+                </div>
+            </section>
+            <!-- end about -->
+            <!-- start menu -->
+            <section id="menu">
+                <div class="title">
+                    <h2>the menu</h2>
+                </div>
+                <div class="choose-eat-drink">
+                    <a href="#" class="eat">eat</a>
+                    <a href="#" class="drink">drink</a>
+                </div>
+                <div class="content-menu">
+                    <div class="product">
+                        <p class="product-name">
+                            Bread Basket
+                        </p>
+                        <p class="product-detaiel">
+                            Assortment of fresh baked fruit breads and muffins 5.50
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="product-name">
+                            Honey Almond Granola with Fruits
+                        </p>
+                        <p class="product-detaiel">
+                            Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="product-name">
+                            Belgian Waffle
+                        </p>
+                        <p class="product-detaiel">
+                            Vanilla flavored batter with malted flour 7.50
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="product-name">
+                            Scrambled eggs
+                        </p>
+                        <p class="product-detaiel">
+                            Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="product-name">
+                            Blueberry Pancakes
+                        </p>
+                        <p class="product-detaiel">
+                            With syrup, butter and lots of berries 8.50
+                        </p>
+                    </div>
+                </div>
+                <div class="img-coffe-shop">
+                    <img src="./images/coffeehouse2.jpg" alt="coffe house">
+                </div>
+            </section>
+            <!-- end menu -->
+            <!-- start where -->
+            <section id="where">
+                <div class="title">
+                    <h2>where to find us</h2>
+                </div>
+                <p>Find us at some address at some place.</p>
+                <div class="img-coffe-shop img-map">
+                    <img src="./images/map.jpg" alt="Map" width="900px">
+                </div>
+                <div class="content-note">
+                <span><strong>FYI!</strong></span>
+                    We offer full-service catering for any event, large or small.
+                    We understand your needs and we will cater the food to satisfy the biggerst criteria of them all
+                , both look and taste.
+                </div>
+                <div class="reserve-table">
+                    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+                    
+                    <form action="#" method="post">
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                        <br><br>
+                        <input type="number" name="number_of_people" id="number_of_people" placeholder="How Many People" required>
+                        <br><br>
+                        <input type="datetime-local" name="date_time" id="date_time" required>
+                        <br><br>
+                        <input type="text" name="message" id="message" placeholder="Message \ Special requitements" required>
+                        <br><br>
+                        <button type="submit">send message</button>
+                    </form>
+                </div>
+            </section>
+            <!-- end where -->
         </div>
-
-      <!-- ------------------------------- task 2 -----------------------------------  -->
-
-        <div class="title">
-            <h2>task2</h2>
+    </main>
+    <!-- end main -->
+     <br><br>
+     <!-- start footer -->
+    <footer>
+        <div>
+            Powered by <a href="https://www.linkedin.com/in/mohamedyasserraya" target="_blank">Mohamed Yasser Raya</a>
         </div>
-        <div class="parent2">
-            <div class="rectangle1">rectangle1</div>
-            <div class="rectangle2">rectangle3</div>
-            <div class="rectangle3">rectangle3</div>
-            <div class="rectangle4">rectangle4</div>
-        </div>
-
-      <!-- ------------------------------- task 3 -----------------------------------  -->
-
-        <div class="title">
-            <h2>task3</h2>
-        </div>
-        <div class="parent3">
-            <div class="box1"></div>
-            <div class="box2"></div>
-            <div class="box3"></div>
-        </div>
-
-      <!-- ------------------------------- task 4-----------------------------------  -->
-
-        <div class="title">
-            <h2>task4</h2>
-        </div>
-        <div class="parent4">
-            <table>
-            <thead>
-                <tr>
-                <th>name</th>
-                <th>age</th>
-                <th>email</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <td>osama</td>
-                <td>38</td>
-                <td>osama@gmail.com</td>
-                </tr>
-                <tr>
-                <td>ahmed</td>
-                <td>30</td>
-                <td>ahmed@gmail.com</td>
-                </tr>
-                <tr>
-                <td>amr</td>
-                <td>23</td>
-                <td>amr@gmail.com</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                <td>ali</td>
-                <td>60</td>
-                <td>ali@gmail.com</td>
-                </tr>
-            </tfoot>
-            </table>
-        </div>
-    </div>
-  </body>
+    </footer>
+    <!-- end footer -->
+</body>
 </html>
