@@ -1,0 +1,127 @@
+
+
+
+/* ============================== Notes!!!!!!!! ==============================  */
+/* 
+
+
+
+            1. You must not add a comment to the main element styles
+            2. To show specific assignment :
+                        -you must add a comment to other styles
+                        -remove the comment from this assignment
+
+
+
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* main element */
+/* ============================== main elements styles ==============================  */
+:root{
+    --before-color:#f12d68;
+    --after-color:#4c9cf8;
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container div{
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+    border: 1px solid #c4c4c4;
+}
+
+
+ /* ============================== Assignment 1 ==============================  */
+
+        /* .container div{
+            width: 300px;
+            height: 200px;
+            color: #4c9cf8;
+        }
+        .container div::before
+        ,.container div::after{
+            content: '';
+            width: 300px;
+            height: 200px;
+            background-color: #4c9cf8;
+            position: absolute;
+            z-index: -1;
+            transform: rotate(-8deg);
+        }
+        .container div::after{
+            background-color: #f12d68;
+            transform: rotate(8deg);
+        } */
+
+
+ /* ============================== Assignment 2 ==============================  */
+
+        /* .container div{
+            width: 200px;
+            height: 200px;
+            color: black;
+            border-radius: 50%;
+        }
+        .container div::before
+        ,.container div::after{
+            content: '';
+            width: 200px;
+            height: 200px;
+            border: 10px solid;
+            border-color: var(--before-color) var(--before-color) var(--before-color) white;
+            position: absolute;
+            z-index: -1;
+            border-radius: 50%;
+        }
+        .container div::after{
+            border: 20px solid;
+            border-color: var(--after-color) white var(--after-color) var(--after-color);
+            z-index: -2;
+        } */
+
+
+ /* ============================== Assignment 3 ==============================  */
+
+        .container div{
+            width: 200px;
+            height: 200px;
+            color: black;
+            border-radius: 50%;
+        }
+        .container div::before
+        ,.container div::after{
+            content: '';
+            width: 200px;
+            height: 200px;
+            border: 10px solid;
+            border-color: var(--before-color) var(--before-color) var(--before-color) white;
+            position: absolute;
+            z-index: -1;
+            border-radius: 50%;
+            transition: .5s all;
+        }
+        .container div::after{
+            border: 20px solid;
+            border-color: var(--after-color) white var(--after-color) var(--after-color);
+            z-index: -2;
+        }
+
+        .container div:hover::before
+        ,.container div:hover::after{
+        transform:  rotate(360deg);
+        }
+   
