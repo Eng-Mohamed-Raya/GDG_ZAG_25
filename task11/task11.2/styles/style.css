@@ -1,0 +1,105 @@
+
+/* ============================== Notes!!!!!!!! ==============================  */
+/* 
+
+
+
+            1. You must not add a comment to the main element styles
+            2. To show specific assignment :
+                        -you must add a comment to other styles
+                        -remove the comment from this assignment
+
+
+
+*/
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 45px;
+    font-weight: 900;
+}
+/* main element */
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+
+ /* =========================== Assignment 1 =========================== */
+
+    
+        div.main.red{
+            color: red;
+        } 
+   
+
+ /* =========================== Assignment 2 =========================== */
+
+    /* 
+        .parent:first-child .child:last-child{
+            color: red;
+        } 
+    */
+
+ /* =========================== Assignment 3 =========================== */
+
+    /*
+        .parent:nth-child(2) .baby{
+            color: red;
+        } 
+    */
+
+ /* =========================== Assignment 4 =========================== */
+
+    /*
+       div[title]:nth-last-of-type(n+4) {
+            color: red;
+        }
+    */
+
+ /* =========================== Assignment 5 =========================== */
+
+    /* 
+        div:nth-child(2) div[title="Elzero"]{
+            color: red;
+        } 
+    */
+    
+
+ /* =========================== Assignment 6 =========================== */
+    
+    /* 
+        div:not(.no-need) div:nth-last-of-type(2){
+            color: red;
+        } 
+    */
+   
+
+ /* =========================== Assignment 7 =========================== */
+
+    /*
+        div:first-child div:nth-last-of-type(2){
+            color: red;
+        } 
+    */
+
+ /* =========================== Assignment 8 =========================== */
+
+
+    /*
+        div p
+        ,div div:nth-of-type(2)
+        ,div div:nth-of-type(3){
+                color: red;
+            } 
+    */
+   
