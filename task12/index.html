@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mohamed Yasser Raya">
+
+    <link rel="shortcut icon" href="./images/mug-saucer-solid.svg" type="image/x-icon">
+    <!-- css -->
+     <link rel="stylesheet" href="./styles/main.css">
+    <title>The Cafe</title>
+</head>
+<body>
+     <!-- start header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#menu">menu</a></li>
+                <li><a href="#where">where</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end header -->
+    <!-- start main -->
+    <main>
+        <!-- start home -->
+        <section id="home">
+            <div class="title">
+                <p>the</p>
+                <p>cafe</p>
+            </div>
+            <p class="time">
+                open from 6am to 5pm
+            </p>
+            <p class="address">
+                15 Adr street, 5015
+            </p>
+        </section>
+        <!-- end home -->
+        <div class="contianer">
+            <!-- start about -->
+            <section id="about">
+                <div class="title">
+                    <h2>about the cafe</h2>
+                </div>
+                <div class="content">
+                    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <p>
+                        In addition to our full espresso and brew bar menu,
+                        we serve fresh made-to-order breakfast and lunch sandwiches
+                        , as well as a selection of sides and salads and other good stuff.  
+                    </p>
+                    <div class="about-product">
+                        <p>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</p>
+                        <p>Chef, Coffeeist and Owner: Liam Brown</p>
+                    </div>
+                    <div class="img-coffe-shop">
+                        <img src="./images/coffeeshop.jpg" alt="coffe shop">
+                    </div>
+                    <div class="detaile">
+                        <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
+                        <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+                    </div>
+                </div>
+            </section>
+            <!-- end about -->
+            <!-- start menu -->
+            <section id="menu">
+                <div class="title">
+                    <h2>the menu</h2>
+                </div>
+                <div class="choose-eat-drink">
+                    <a href="#" class="eat" >eat</a>
+                    <a href="#" class="drink">drink</a>
+                </div>
+                <div class="content-menu">
+                    <!-- <div class="product">
+                        <p class="product-name">
+                            Bread Basket
+                        </p>
+                        <p class="product-detail">
+                            Assortment of fresh baked fruit breads and muffins 5.50
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="product-name">
+                            Honey Almond Granola with Fruits
+                        </p>
+                        <p class="product-detail">
+                            Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="product-name">
+                            Belgian Waffle
+                        </p>
+                        <p class="product-detail">
+                            Vanilla flavored batter with malted flour 7.50
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="product-name">
+                            Scrambled eggs
+                        </p>
+                        <p class="product-detail">
+                            Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+                        </p>
+                    </div>
+                    <div class="product">
+                        <p class="product-name">
+                            Blueberry Pancakes
+                        </p>
+                        <p class="product-detail">
+                            With syrup, butter and lots of berries 8.50
+                        </p>
+                    </div> -->
+                </div>
+                <div class="img-coffe-shop">
+                    <img src="./images/coffeehouse2.jpg" alt="coffe house">
+                </div>
+            </section>
+            <!-- end menu -->
+            <!-- start where -->
+            <section id="where">
+                <div class="title">
+                    <h2>where to find us</h2>
+                </div>
+                <p>Find us at some address at some place.</p>
+                <div class="img-coffe-shop img-map">
+                    <img src="./images/map.jpg" alt="Map" width="900px">
+                </div>
+                <div class="content-note">
+                <span>FYI!</span>
+                    We offer full-service catering for any event, large or small.
+                    We understand your needs and we will cater the food to satisfy the biggerst criteria of them all
+                , both look and taste.
+                </div>
+                <div class="reserve-table">
+                    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+                    
+                    <form method="post">
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+              
+                        <input type="number" name="number_of_people" id="number_of_people" placeholder="How Many People" required>
+                      
+                        <input type="datetime-local" name="date_time" id="date_time" required>
+               
+                        <input type="text" name="message" id="message" placeholder="Message \ Special requitements" >
+             
+                        <button type="submit">send message</button>
+                    </form>
+                </div>
+            </section>
+            <!-- end where -->
+        </div>
+    </main>
+    <!-- end main -->
+     <br><br>
+     <!-- start footer -->
+    <footer>
+        <div>
+            Powered by <a href="https://www.linkedin.com/in/mohamedyasserraya" target="_blank">Mohamed Yasser Raya</a>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+    <script>
+        const product={
+            eat: [
+                {
+                    name: "Bread Basket",
+                    detail: "Assortment of fresh baked fruit breads and muffins 5.50"
+                },
+                {
+                    name: "Honey Almond Granola with Fruits",
+                    detail: "Natural cereal of honey toasted oats, raisins, almonds and dates 7.00"
+                },
+                {
+                    name: "Belgian Waffle",
+                    detail: "Vanilla flavored batter with malted flour 7.50"
+                },
+                {
+                    name: "Scrambled eggs",
+                    detail: "Scrambled eggs, roasted red pepper and garlic, with green onions 7.50"
+                },
+                {
+                    name: "Blueberry Pancakes",
+                    detail: "With syrup, butter and lots of berries 8.50"
+                }
+            ],
+            drink: [
+                {
+                    name: "Coffee",
+                    detail: "Regular coffee 2.50"
+                },
+                {
+                    name: "Chocolato",
+                    detail: "Chocolate espresso with milk 4.50"
+                },
+                {
+                    name: "Corretto",
+                    detail: "Whiskey and coffee 5.00"
+                },
+                {
+                    name: "Iced tea",
+                    detail: "Hot tea, except not hot 3.00"
+                },
+                {
+                    name: "Soda",
+                    detail: "Coke, Sprite, Fanta, etc. 2.50"
+                }
+            ]
+        }
+       
+        function displayMenu(items) {
+            const contentMenu = document.querySelector('.content-menu');
+            contentMenu.innerHTML = '';
+            items.forEach(item => {
+                const productDiv = document.createElement('div');
+                productDiv.classList.add('product');
+                productDiv.innerHTML = `
+                    <p class="product-name">${item.name}</p>
+                    <p class="product-detail">${item.detail}</p>
+                `;
+                contentMenu.appendChild(productDiv);
+            });
+        }
+         displayMenu(product.eat);
+         document.querySelector('.eat').classList.add('active');
+        document.querySelector('.choose-eat-drink').addEventListener('click', function(event) {
+            event.preventDefault();
+            if (event.target.classList.contains('eat')) {
+                event.target.classList.add('active');
+                document.querySelector('.drink').classList.remove('active');
+                displayMenu(product.eat);
+            } else if (event.target.classList.contains('drink')) {
+                 event.target.classList.add('active');
+                document.querySelector('.eat').classList.remove('active');
+                displayMenu(product.drink);
+            }
+        });
+   </script>
+</body>
+</html>
